@@ -4,6 +4,8 @@ export default {
   // TODO: Configure theme here for our branding
   theme: {
     colors: {
+      primary: "#002A44",
+      secondary: "#FF8A00",
       blue: "#1fb6ff",
       purple: "#7e5bef",
       pink: "#ff49db",
@@ -26,6 +28,14 @@ export default {
       borderRadius: {
         "4xl": "2rem",
       },
+    },
+    screens: {
+      xs: "480px",
+      ss: "620px",
+      sm: "768px",
+      md: "1060px",
+      lg: "1200px",
+      xl: "1700px",
     },
   },
   plugins: [],
