@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { LuMenu, LuX } from "react-icons/lu";
+import { Menu, X } from "lucide-react";
 
 import logoWhite from "../../assets/Icons/light-1.png";
 
@@ -67,7 +67,7 @@ const Navbar = () => {
                 className="w-[28px] h-[28px] object-contain text-white flex items-center"
                 onClick={() => setToggle(!toggle)}
               >
-                {!toggle ? <LuMenu /> : <LuX />}
+                {!toggle ? <Menu /> : <X />}
               </div>
 
               {/* Sidebar */}
