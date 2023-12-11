@@ -1,15 +1,17 @@
 ---
-import Layout from "../layouts/main.layout.astro";
-import LightLogo from "../assets/Icons/light-1.png";
+import Layout from '../layouts/main.layout.astro'
+import img from '../assets/Icons/light-1.png'
+
+import Card from '../ui/card'
 ---
 
 <!-- TODO: Check the description content here -->
 <Layout title="BeeCo Dev" description="BeeCo Dev is a Software Company.">
-  <h1>BeeCo Dev</h1>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quam
-    nesciunt deleniti nulla voluptatibus exercitationem ipsam molestiae itaque
-    officia rerum repellendus quasi repellat, harum quis libero, ullam animi?
-    Porro, quae.
-  </p>
+	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure iusto reiciendis suscipit fugit veniam laboriosam a,
+	neque debitis, itaque voluptates minus expedita, incidunt molestias ipsam perferendis vel delectus esse? Incidunt.
+	<Card
+		image={img}
+		title="Hello World"
+		description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure iusto reiciendis suscipit fugit veniam laboriosam a, neque debitis, itaque voluptates minus expedita, incidunt molestias ipsam perferendis vel delectus esse? Incidunt."
+	/>
 </Layout>
