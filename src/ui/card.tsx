@@ -12,7 +12,7 @@ const Card = ({ image, title, description, imgRight }: Props) => {
 				imgRight && 'flex-row-reverse'
 			} py-6 items-center justify-between`}
 		>
-			<img src={image.src} width={300} />
+			<img src={image.src} width={300} alt={image.src} />
 			<div className="flex flex-col p-6">
 				<h1 className="text-[#002A41] text-4xl pb-10">{title}</h1>
 				<p>{description}</p>

@@ -39,7 +39,7 @@ const Navbar = () => {
 				<div className={`xl:max-w-[1280px] w-full`}>
 					<nav className="w-full flex py-2 justify-between items-center navbar">
 						<a href="/" className="flex justify-center gap-3 items-center">
-							<img src={logoWhite.src} alt="" width={100} />
+							<img src={logoWhite.src} alt="Logo" width={100} />
 							{/* TODO: Change the font family here */}
 							<p className="text-2xl text-white font-serif">
 								<span className="text-secondary">Bee</span>Co Dev
