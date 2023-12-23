@@ -8,7 +8,8 @@ interface Props {
 const Card = ({ image, title, description, imgRight }: Props) => {
 	return (
 		<div
-			className={`max-w-[70%] mx-auto bg-red-400 my-3 px-12 flex ${
+			// TODO: Change Background here...
+			className={`max-w-[70%] mx-auto shadow-lg my-3 px-12 flex ${
 				imgRight && 'flex-row-reverse'
 			} py-6 items-center justify-between`}
 		>
