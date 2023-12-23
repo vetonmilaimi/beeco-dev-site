@@ -1,14 +1,15 @@
 ---
-import Layout from '../layouts/main.layout.astro'
 import img from '../assets/Icons/light-1.png'
+import Layout from '../layouts/main.layout.astro'
+
+import HeroSection from '../components/hero-section'
 
 import Card from '../ui/card'
 ---
 
 <!-- TODO: Check the description content here -->
 <Layout title="BeeCo Dev" description="BeeCo Dev is a Software Company.">
-	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure iusto reiciendis suscipit fugit veniam laboriosam a,
-	neque debitis, itaque voluptates minus expedita, incidunt molestias ipsam perferendis vel delectus esse? Incidunt.
+	<HeroSection client:visible />
 	<Card
 		image={img}
 		title="Hello World"
