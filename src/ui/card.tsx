@@ -25,7 +25,7 @@ const Card = ({ image, title, description, imgRight }: Props) => {
 			`}
 		>
 			<img src={image.src} width={300} />
-			<div className="flex flex-col p-6 max-md:p-3">
+			<div className="flex flex-col p-6">
 				<h1 className="text-[#002A41] text-4xl pb-10 max-md:pb-3">{title}</h1>
 				<p>{description}</p>
 			</div>
