@@ -7,7 +7,10 @@ module.exports = {
 			center: true,
 			padding: '2rem',
 			screens: {
-				'2xl': '1400px',
+				phone: '320px',
+				tablet: '640px',
+				laptop: '1024px',
+				desktop: '1280px',
 			},
 		},
 		extend: {
@@ -65,6 +68,16 @@ module.exports = {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
+			},
+			boxShadow: {
+				default: '0 4px 12px 0 rgba(61, 193, 197, 0.25)',
+				glossy: '2px 4px 6px 0px rgba(19, 48, 66, 0.66), 0px 4px 4px 0px rgba(255, 255, 255, 0.25) inset',
+				innerBrand: '2px 2px 3px 0px rgba(61, 193, 197, 0.12) inset',
+				innerProgress: '0px 1px 2px 0px rgba(0, 0, 0, 0.12) inset;',
+				small: '1px 1px 3px 0px rgba(61, 193, 197, 0.12) inset',
+				widget: '0px 4px 16px 5px rgba(61, 193, 197, 0.07)',
+				widgetHover: '0px 4px 16px 5px rgba(61, 193, 197, 0.25)',
+				widgetHoverDestructive: '0px 4px 16px 5px rgba(255, 107, 107, 0.25)',
 			},
 		},
 		fontSize: {

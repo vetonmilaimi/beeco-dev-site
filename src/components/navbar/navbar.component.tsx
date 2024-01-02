@@ -41,7 +41,7 @@ const Navbar = () => {
 						<a href="/" className="flex justify-center gap-3 items-center">
 							<img src={logoWhite.src} alt="" width={100} />
 							{/* TODO: Change the font family here */}
-							<p className="text-2xl text-white font-serif">
+							<p className="text-2xl text-white font-serif max-md:hidden">
 								<span className="text-secondary">Bee</span>Co Dev
 							</p>
 						</a>
