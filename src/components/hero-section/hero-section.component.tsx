@@ -1,3 +1,4 @@
+import MeetUs from 'components/meet-us'
 import Button from 'ui/button'
 
 const HeroSection = () => {
@@ -26,7 +27,7 @@ const HeroSection = () => {
 					quia maxime?
 					<br /> Molestiae reprehenderit ut perferendis sed dolore et ducimus temporibus alias placeat neque?
 				</p>
-				{/* TODO: Add a button here --- Create a reusable button --- */}
+				<MeetUs />
 				<div className="flex justify-center align-middle py-5">
 					<Button text="Contact Us" />
 				</div>

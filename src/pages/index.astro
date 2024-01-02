@@ -3,25 +3,24 @@ import img from '../assets/Icons/light-1.png'
 import Layout from '../layouts/main.layout.astro'
 
 import HeroSection from '../components/hero-section'
+import MeetUs from '../components/meet-us'
 
 import Card from '../ui/card'
 ---
 
 <!-- TODO: Check the description content here -->
 <Layout title="BeeCo Dev" description="BeeCo Dev is a Software Company.">
-	<div class="bg-[red]">
-		<HeroSection client:visible />
-		<Card
-			image={img}
-			title="Hello World"
-			description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure iusto reiciendis suscipit fugit veniam laboriosam a, neque debitis, itaque voluptates minus expedita, incidunt molestias ipsam perferendis vel delectus esse? Incidunt."
-		/>
+	<HeroSection client:visible />
+	<Card
+		image={img}
+		title="Hello World"
+		description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure iusto reiciendis suscipit fugit veniam laboriosam a, neque debitis, itaque voluptates minus expedita, incidunt molestias ipsam perferendis vel delectus esse? Incidunt."
+	/>
 
-		<Card
-			image={img}
-			title="Hello World"
-			description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure iusto reiciendis suscipit fugit veniam laboriosam a, neque debitis, itaque voluptates minus expedita, incidunt molestias ipsam perferendis vel delectus esse? Incidunt."
-			imgRight
-		/>
-	</div>
+	<Card
+		image={img}
+		title="Hello World"
+		description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure iusto reiciendis suscipit fugit veniam laboriosam a, neque debitis, itaque voluptates minus expedita, incidunt molestias ipsam perferendis vel delectus esse? Incidunt."
+		imgRight
+	/>
 </Layout>
