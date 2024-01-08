@@ -1,10 +1,27 @@
 ---
-import Layout from "../../layouts/main.layout.astro";
+import SecondHeroSection from 'components/second-hero-section'
+import Layout from '../../layouts/main.layout.astro'
+import Card from 'ui/card'
+
+import img from 'assets/Images/meeting.webp'
 ---
 
-<Layout
-  title="BeeCo Dev - About"
-  description="BeeCo Dev is a Software Company."
->
-  <h1>About Us</h1>
+<Layout title="BeeCo Dev - About" description="BeeCo Dev is a Software Company.">
+	<SecondHeroSection title="About Us" />
+	<Card
+		image={img}
+		title="Hello World"
+		description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure iusto reiciendis suscipit fugit veniam laboriosam a, neque debitis, itaque voluptates minus expedita, incidunt molestias ipsam perferendis vel delectus esse? Incidunt."
+	/>
+	<Card
+		image={img}
+		title="Hello World"
+		description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure iusto reiciendis suscipit fugit veniam laboriosam a, neque debitis, itaque voluptates minus expedita, incidunt molestias ipsam perferendis vel delectus esse? Incidunt."
+		imgRight
+	/>
+	<Card
+		image={img}
+		title="Hello World"
+		description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure iusto reiciendis suscipit fugit veniam laboriosam a, neque debitis, itaque voluptates minus expedita, incidunt molestias ipsam perferendis vel delectus esse? Incidunt."
+	/>
 </Layout>

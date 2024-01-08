@@ -16,12 +16,13 @@ const Card = ({ image, title, description, imgRight }: Props) => {
 				max-md:py-0
 				mx-auto 
 				shadow-lg 
-				my-3 
+				my-9 
 				px-12 
 				flex ${imgRight && 'flex-row-reverse'} 
 				py-6 
 				items-center 
 				justify-between
+				border
 			`}
 		>
 			<img src={image.src} width={300} />
